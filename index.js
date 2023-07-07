@@ -11,5 +11,5 @@ function wordSearch(){
     //console.log(input)
     fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${input}`)
     .then(data => data.json())
-    .then(words => console.log(words))
+    .then(words => words.forEach(word => renderWords(word)))
  }
