@@ -30,4 +30,5 @@ function wordSearch(){
     let h3 = document.createElement('h3')
     h3.innerText = _word.word.toUpperCase().charAt(0) + _word.word.slice(1).toLowerCase()
     const wordList = document.querySelector('#wordList')
+    wordList.append(h3, newDefinition, saveBtn, deleteBtn)
  }
