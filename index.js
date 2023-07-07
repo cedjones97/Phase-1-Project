@@ -17,4 +17,7 @@ function wordSearch(){
  function renderWords(_word){
     let newDefinition = document.createElement('li')
     newDefinition.innerText = _word.meanings[0].definitions[0].definition
+    let saveBtn = document.createElement('button')
+    saveBtn.id = 'save'
+    saveBtn.innerText = 'save'
  }
