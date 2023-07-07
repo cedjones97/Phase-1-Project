@@ -43,4 +43,7 @@ function newBtn(_word){
      def.innerText = _word.meanings[0].definitions[0].definition
      let hoverBtn = document.createElement('audio')
      hoverBtn.src = _word.phonetics[0].audio
+     hoverBtn.addEventListener('mouseover', ()=>{
+        audio.play()
+     })
 }
