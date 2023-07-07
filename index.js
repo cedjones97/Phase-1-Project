@@ -46,4 +46,5 @@ function newBtn(_word){
      hoverBtn.addEventListener('mouseover', ()=>{
         audio.play()
      })
+     const wordContainer = document.querySelector('#wordContainer')
 }
