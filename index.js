@@ -47,4 +47,5 @@ function newBtn(_word){
         audio.play()
      })
      const wordContainer = document.querySelector('#wordContainer')
+     wordContainer.append(hoverBtn)
 }
