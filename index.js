@@ -15,5 +15,6 @@ function wordSearch(){
  }
 
  function renderWords(_word){
-    
+    let newDefinition = document.createElement('li')
+    newDefinition.innerText = _word.meanings[0].definitions[0].definition
  }
