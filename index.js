@@ -20,4 +20,7 @@ function wordSearch(){
     let saveBtn = document.createElement('button')
     saveBtn.id = 'save'
     saveBtn.innerText = 'save'
+    saveBtn.addEventListener('click', ()=>{
+        
+    })
  }
