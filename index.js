@@ -13,3 +13,7 @@ function wordSearch(){
     .then(data => data.json())
     .then(words => words.forEach(word => renderWords(word)))
  }
+
+ function renderWords(_word){
+    
+ }
