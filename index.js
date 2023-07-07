@@ -39,4 +39,6 @@ function renderWords(_word){
 function newBtn(_word){
      let header = document.createElement('h4')
      header.innerText = _word.word.toUpperCase()
+     let def = document.createElement('li')
+     def.innerText = _word.meanings[0].definitions[0].definition
 }
