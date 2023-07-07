@@ -22,5 +22,7 @@ function wordSearch(){
     saveBtn.innerText = 'save'
     saveBtn.addEventListener('click', ()=>{
         h3.remove() + newDefinition.remove() + saveBtn.remove() + deleteBtn.remove()
+        newBtn(_word)
     })
+    
  }
