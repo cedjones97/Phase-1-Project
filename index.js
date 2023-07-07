@@ -21,6 +21,6 @@ function wordSearch(){
     saveBtn.id = 'save'
     saveBtn.innerText = 'save'
     saveBtn.addEventListener('click', ()=>{
-        
+        h3.remove() + newDefinition.remove() + saveBtn.remove() + deleteBtn.remove()
     })
  }
