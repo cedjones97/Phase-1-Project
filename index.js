@@ -24,5 +24,8 @@ function wordSearch(){
         h3.remove() + newDefinition.remove() + saveBtn.remove() + deleteBtn.remove()
         newBtn(_word)
     })
+    let deleteBtn = document.createElement('button')
+    deleteBtn.id = 'delete'
+    deleteBtn.innerText = 'delete'
     
  }
