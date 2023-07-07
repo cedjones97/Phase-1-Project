@@ -12,9 +12,9 @@ function wordSearch(){
     fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${input}`)
     .then(data => data.json())
     .then(words => words.forEach(word => renderWords(word)))
- }
+}
 
- function renderWords(_word){
+function renderWords(_word){
     let newDefinition = document.createElement('li')
     newDefinition.innerText = _word.meanings[0].definitions[0].definition
     let saveBtn = document.createElement('button')
@@ -34,4 +34,9 @@ function wordSearch(){
     deleteBtn.addEventListener('click', ()=>{
         h3.remove() + newDefinition.remove() + saveBtn.remove() + deleteBtn.remove()
     })
- }
+}
+
+function newBtn(_word){
+    // let header = document.createElement('h4')
+    // header.innerText = _word.word.toUpperCase()
+}
