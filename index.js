@@ -48,5 +48,6 @@ function newBtn(_word){
         audio.play()
      })
      const wordContainer = document.querySelector('#wordContainer')
+     hoverBtn.innerText = header + def
      wordContainer.append(hoverBtn)
 }
