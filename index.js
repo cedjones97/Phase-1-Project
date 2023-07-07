@@ -37,6 +37,6 @@ function renderWords(_word){
 }
 
 function newBtn(_word){
-    // let header = document.createElement('h4')
-    // header.innerText = _word.word.toUpperCase()
+     let header = document.createElement('h4')
+     header.innerText = _word.word.toUpperCase()
 }
